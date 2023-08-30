@@ -5,7 +5,6 @@
 }
 
 .header {
-   /* padding: 0%; */
    height: 300px;
    width: 1500px;
    background-image: url(https://images.unsplash.com/photo-1575330719343-23de81f5b995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2980&q=80);
@@ -27,7 +26,7 @@ h1 {
 nav {
    padding-top: 15px;
    font-family: 'Sofia Sans Semi Condensed', sans-serif;
-   letter-spacing: 2px;
+   letter-spacing: 3px;
 }
 
 a {
@@ -35,15 +34,47 @@ a {
    text-decoration: none;
 }
 
-   ul {
+nav > ul {
    list-style-type: none;
 }
 
-li {
+nav > ul > li {
    display: inline-block;
    margin-left: 25px;
 }
 
-.break {
+.section-bg {
+   width: 100%;
+   background-color: black;
+   padding: 20px;
+   margin-top: 30px;
+}
 
+.section-bg h2 {
+   padding-left: 20px;
+   padding-bottom: 20px;
+   font-family: 'Sofia Sans Semi Condensed', sans-serif;
+   font-size: 30px;
+   letter-spacing: 10px;
+   color: whitesmoke;
+}
+
+p {
+   padding-left: 20px;
+   font-family: 'Sofia Sans Semi Condensed', sans-serif;
+   color: whitesmoke;
+}
+
+section > ul {
+   list-style-type: none;
+}
+
+section > ul > li {
+   padding-left: 20px;
+   font-family: 'Sofia Sans Semi Condensed', sans-serif;
+   color: whitesmoke;
+}
+
+section > ul > li > a {
+   color: whitesmoke;
 }
