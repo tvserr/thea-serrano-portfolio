@@ -7,7 +7,6 @@
 
 .header {
    height: 300px;
-   width: 1440px;
    background-image: url(https://images.unsplash.com/photo-1575330719343-23de81f5b995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2980&q=80);
    background-size: auto;
    background-position: bottom;
@@ -44,7 +43,6 @@ nav > ul > li {
 }
 
 .section-bg {
-   width: 1440px;
    height: max-content;
    background-color: black;
    padding: 20px;
@@ -74,12 +72,12 @@ section > img {
 section > a > img {
    display: block;
    padding-left: 20px;
-   height: 450px;
-   width: 800px;
+   height: 400px;
+   width: 740px;
 }
 
 figcaption {
-   width: 780px;
+   width: 720px;
    border: solid white;
    margin-top: 3px;
    margin-left: 20px;
