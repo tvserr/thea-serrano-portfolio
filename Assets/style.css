@@ -22,11 +22,6 @@ h1 {
    padding-top: 100px
 }
 
-/* navbar spacing */
-nav {
-   padding-top: 15px;
-}
-
 /* navbar font styling */
 .navbar {
    color: rgb(58, 57, 57);
@@ -35,9 +30,18 @@ nav {
 }
 
 nav > ul > li {
+   position: relative;
+   left: 1030px;
+   padding: 5px;
    display: inline-block;
+   margin-top: 10px;
    margin-left: 25px;
    list-style-type: none;
+   border: solid black;
+}
+
+nav > ul > li :hover {
+   text-shadow: 2px 2px lightgray;
 }
 
 /* section background */
