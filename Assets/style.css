@@ -5,6 +5,7 @@
    font-family: 'Sofia Sans Semi Condensed', sans-serif;
 }
 
+/* image for header */
 .header {
    height: 300px;
    background-image: url(https://images.unsplash.com/photo-1575330719343-23de81f5b995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2980&q=80);
@@ -13,35 +14,33 @@
    background-repeat: no-repeat;
 }
 
+/* font styling and placement for header text */
 h1 {
    font-size: 50px;
    font-weight: bolder;
-   padding-top: 3px;
-   margin-right: 3px;
    text-align: center;
    padding-top: 100px
-
 }
 
+/* navbar spacing */
 nav {
    padding-top: 15px;
-   letter-spacing: 3px;
 }
 
+/* navbar font styling */
 .navbar {
    color: rgb(58, 57, 57);
    text-decoration: none;
-}
-
-nav > ul {
-   list-style-type: none;
+   letter-spacing: 3px;
 }
 
 nav > ul > li {
    display: inline-block;
    margin-left: 25px;
+   list-style-type: none;
 }
 
+/* section background */
 .section-bg {
    height: max-content;
    background-color: black;
@@ -49,6 +48,7 @@ nav > ul > li {
    margin-top: 30px;
 }
 
+/* font styling for sections */
 .section-bg h2 {
    padding-left: 20px;
    padding-bottom: 20px;
@@ -57,11 +57,13 @@ nav > ul > li {
    color: whitesmoke;
 }
 
+/* about-me font and padding */
 p {
    padding-left: 20px;
    color: whitesmoke;
 }
 
+/* about-me image placement and sizing */
 section > img {
    float: left;
    margin: 20px;
@@ -69,6 +71,7 @@ section > img {
    width: 150px;
 }
 
+/* my-work image placement and sizing */
 section > a > img {
    display: block;
    padding-left: 20px;
@@ -76,6 +79,7 @@ section > a > img {
    width: 740px;
 }
 
+/* caption underneath image */
 figcaption {
    width: 720px;
    border: solid white;
@@ -89,13 +93,10 @@ figcaption {
    caption-side: bottom;
 }
 
-section > ul {
-   list-style-type: none;
-}
-
 section > ul > li {
    padding-left: 20px;
    color: whitesmoke;
+   list-style-type: none;
 }
 
 section > ul > li > a {
