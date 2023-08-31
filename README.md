@@ -15,7 +15,7 @@ The navigation bar on the top left displays links to the 'About Me', 'My Work', 
 
 The 'About Me' section provides a paragraph into me and my portfolio. The 'My Work' section displays webpage/s that I have built and will be building, as well as a clickable title that will take you to the actual webpage. The 'Let's Talk!' section provides different ways to contact me and get in touch with me.
 
-See my portfolio here: 
+See my portfolio here: https://tvserr.github.io/thea-serrano-portfolio/
 
 ## Credits
 Header Image: https://unsplash.com/photos/li7LkjxlB40
