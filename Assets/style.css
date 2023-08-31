@@ -7,7 +7,7 @@
 
 .header {
    height: 300px;
-   width: 1500px;
+   width: 1440px;
    background-image: url(https://images.unsplash.com/photo-1575330719343-23de81f5b995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2980&q=80);
    background-size: auto;
    background-position: bottom;
@@ -29,7 +29,7 @@ nav {
    letter-spacing: 3px;
 }
 
-a {
+.navbar {
    color: rgb(58, 57, 57);
    text-decoration: none;
 }
@@ -44,7 +44,8 @@ nav > ul > li {
 }
 
 .section-bg {
-   width: 100%;
+   width: 1440px;
+   height: max-content;
    background-color: black;
    padding: 20px;
    margin-top: 30px;
@@ -71,20 +72,23 @@ section > img {
 }
 
 section > a > img {
+   display: block;
    padding-left: 20px;
    height: 450px;
    width: 800px;
 }
 
-.img-title {
-   position: relative;
-   text-align: center;
-   left: 175px;
-   bottom: 225px;
+figcaption {
+   width: 780px;
    border: solid white;
+   margin-top: 3px;
+   margin-left: 20px;
    padding: 5px;
    color: whitesmoke;
-   font-size: 25px;
+   font-size: 15px;
+   text-decoration: none;
+   text-align: center;
+   caption-side: bottom;
 }
 
 section > ul {
@@ -98,4 +102,5 @@ section > ul > li {
 
 section > ul > li > a {
    color: whitesmoke;
+   text-decoration: none;
 }
